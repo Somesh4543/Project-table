@@ -1,13 +1,9 @@
 import { combineReducers } from "redux";
-import authReducer from "./authReducer";
-import loadingReducer from "./loadingReducer";
+import GroupReducer from "./GroupReducer";
 
 
 const rootReducer = combineReducers({
-    authReducer: authReducer,
-    loadingReducer: loadingReducer,
-
-
+    groupReducer: GroupReducer,
 });
 
 export default rootReducer;
