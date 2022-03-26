@@ -5,7 +5,7 @@ export const getGroupList = () => {
   return (dispatch) => {
     return GroupService.getGroups()
       .then((response) => {
-        return dispatch({ type: GET_ALL_GROUPS, payload: response });
+        return dispatch({ type: GET_ALL_GROUPS, payload: response.data });
       })
       .catch((err) => {
         throw err;
