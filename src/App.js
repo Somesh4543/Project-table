@@ -1,11 +1,13 @@
 
 import './App.css';
-import MyComponent from './Components/table';
+import MUI from './Components/MUI';
+// import MyComponent from './Components/table';
 
 function App() {
   return (
     <div className='app'>
-      <MyComponent />
+      {/* <MyComponent /> */}
+      <MUI />
     </div>
   );
 }
